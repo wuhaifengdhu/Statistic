@@ -1,13 +1,11 @@
 #!/bin/bash
 #
-# Copyright (c) 2019 PayPal Corporation. All rights reserved.
-
 # --------------------------------------------------------------------------------------------------------------
 #
 #
-#   Author: haifwu@paypal.com
+#   Author: wuhaifengdhu@163.com
 #
-#   Script Description
+#   Demo shell script to description several key points in writhing shell script.
 #
 # --------------------------------------------------------------------------------------------------------------
 # Environment variable
@@ -29,6 +27,8 @@ function usage() {
     echo -e "\t Get dns name for each host from IP"
     echo -e "\t -a Analysis the count of hosts for each cluster"
     echo -e "\t -h Print help message"
+    echo -e "Sample: $0  Running command without any argument will check host name for each ip and print in console"
+    echo -e "Sample: $0 -a  Running command to further analysis the hosts number for each cluster"
 }
 
 # ------------------------------Logical for get dns from ip address---------------------------------------------
